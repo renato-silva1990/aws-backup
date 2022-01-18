@@ -24,10 +24,8 @@ Script que realiza a configuração completa do AWS Backup, pode criar ou remove
 - `condition_key`: A Key em um Key-Value pair. Por exemplo, na tag *Department: Accounting*, Department é a Key.
 - `condition_value`: O value em um Key-Value pair. Por exemplo, na tag *Department: Accounting*, Accounting é o Value.
 
-- Para mais detalhes sobre o padrão Solvimm para o AWS Backup, acesse: https://docs.google.com/document/d/1kb9xVHmj4bsjv-n-p8n0atWvpq2FMOGQMJ_fVHXPPuU/edit
-
 ## Execução
-- Realizar o acesso programático via Leapp.
+- Realizar o acesso programático a conta desejada.
 - Acesse a pasta do projeto via terminal e execute o seguinte comando:
 	- `python3 aws_backup.py`
 - Escolha entre os modos de criação ou de remoção.
